@@ -41,6 +41,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.6.0",
+    "@stdspa/appium-linux-driver": "^0.0.9",
     "appium-android-driver": "^4.20.0",
     "appium-base-driver": "^7.0.0",
     "appium-espresso-driver": "^1.0.0",
@@ -48,7 +49,6 @@
     "appium-flutter-driver": "^0.x",
     "appium-geckodriver": "^0.x",
     "appium-ios-driver": "4.x",
-    "appium-linux-driver": "github:fantonglang/appium-linux-driver#main",
     "appium-mac-driver": "1.x",
     "appium-mac2-driver": "^0.x",
     "appium-safari-driver": "^2.1.0",

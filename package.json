@@ -48,6 +48,7 @@
     "appium-flutter-driver": "^0.x",
     "appium-geckodriver": "^0.x",
     "appium-ios-driver": "4.x",
+    "appium-linux-driver": "github:fantonglang/appium-linux-driver#main",
     "appium-mac-driver": "1.x",
     "appium-mac2-driver": "^0.x",
     "appium-safari-driver": "^2.1.0",
@@ -95,7 +96,8 @@
     "generate-docs": "node ./build/commands-yml/parse.js",
     "zip": "zip -qr appium.zip .",
     "upload": "gulp github-upload",
-    "zip-and-upload": "npm run zip && npm run upload"
+    "zip-and-upload": "npm run zip && npm run upload",
+    "updatepaks": "npm install git+ssh://git@github.com/fantonglang/appium-linux-driver.git#main"
   },
   "pre-commit": [
     "precommit-msg",

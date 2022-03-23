@@ -1815,29 +1815,31 @@
   resolved "https://registry.npmmirror.com/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@stdspa/appium-linux-driver@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@stdspa/appium-linux-driver/-/appium-linux-driver-0.0.9.tgz#b67bb732f5eee5c75b0d3966715253b84265ad34"
-  integrity sha512-DYTVBK0N3S7Pi/gPj3yj7L6YC2gXsrS8Wjiyb4qfBT6JZ28vqch9zcWJsG0+Q3O4+LH7UCRkb03xLc9DPS1QFg==
+"@stdspa/appium-linux-driver@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@stdspa/appium-linux-driver/-/appium-linux-driver-0.0.10.tgz#4df6e1b45c9072079a780469560686d5457f9bf3"
+  integrity sha512-jcN2UHr1gSuRSLQZKc7ey4KrTv1g+MQfQcJuzX1vip3g/xlWkS4f05t0sooMOi2bThz9V4m+/Y+BB1ZO4k8M2w==
   dependencies:
     "@appium/base-driver" "^8.0.0"
     "@appium/support" "^2.46.0"
     "@babel/runtime" "^7.0.0"
-    "@stdspa/stdspalinux_temp" "^0.0.5"
+    "@stdspa/stdspalinux_temp" "^0.0.7"
     asyncbox "^2.0.2"
     axios "^0.x"
     bluebird "^3.5.1"
     lodash "^4.17.4"
+    lru-cache "^7.7.1"
     portscanner "2.2.0"
     source-map-support "^0.x"
     teen_process "^1.15.0"
+    uuid "^8.3.2"
     xmldom "^0.6.0"
     xpath.js "^1.1.0"
 
-"@stdspa/stdspalinux_temp@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@stdspa/stdspalinux_temp/-/stdspalinux_temp-0.0.5.tgz"
-  integrity sha512-yuAzyeCqVUW9ZDT8ILqRNj/GyaADAE+GyGWSvV7ngvp+Srwe3TJUrXoPyAaNs5D6B3yPVBIVYzhbjCuqINSWKg==
+"@stdspa/stdspalinux_temp@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@stdspa/stdspalinux_temp/-/stdspalinux_temp-0.0.7.tgz#016786cb867e1e09e6a76720104b557ba31f423c"
+  integrity sha512-KsOj2W0SlFOmzWy96oSuq29RRhp57AE33RNroMzkUrJk2M1xYI3x+AwQbe7AU+kziaVI2p50axmWAIiVZFA0wQ==
   dependencies:
     bindings "^1.3.0"
     nan "^2.11.1"
@@ -7142,6 +7144,11 @@ lru-cache@^5.0.0:
   dependencies:
     yallist "^3.0.2"
 
+lru-cache@^7.7.1:
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.7.1.tgz#03d2846b1ad2dcc7931a9340b8711d9798fcb0c6"
+  integrity sha512-cRffBiTW8s73eH4aTXqBcTLU0xQnwGV3/imttRHGWCrbergmnK4D6JXQd8qin5z43HnDwRI+o7mVW0LEB+tpAw==
+
 lru-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/lru-queue/-/lru-queue-0.1.0.tgz"
@@ -10250,7 +10257,7 @@ uuid-js@^0.7.5:
   resolved "https://registry.npmmirror.com/uuid-js/-/uuid-js-0.7.5.tgz"
   integrity sha512-lJFducSMfVDO3E1wBe/zflgU25JbpX9KfF+g0k6OxIt9xeybdZd27n75vPg+4cLN55UKGjJ46w3K3q3l+8KgkQ==
 
-uuid@8.3.2, uuid@^8.0.0, uuid@^8.3.0:
+uuid@8.3.2, uuid@^8.0.0, uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==

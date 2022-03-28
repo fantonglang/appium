@@ -1815,10 +1815,10 @@
   resolved "https://registry.npmmirror.com/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@stdspa/appium-linux-driver@^0.0.39":
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/@stdspa/appium-linux-driver/-/appium-linux-driver-0.0.39.tgz#ba1c3577448bd3428f0901f41527ed5706db6923"
-  integrity sha512-kEEiEm2KPQQcgY6AmRGonJoxBQdJSoT4FMZDJR/eedDNPM7MUL6h+OSap7EnQ6uvO1e97KGH+AVSsrnkkgzEfQ==
+"@stdspa/appium-linux-driver@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/@stdspa/appium-linux-driver/-/appium-linux-driver-0.0.42.tgz#f8fec38f30e34c110dc9a373ec31021a70c4eae7"
+  integrity sha512-7oE7iYSYAX+Da2VEQHtSrL8TOb7jtAvv+NbRpkMdvFFWb7PIECFZF91sUm1CR6egfJwgFQaYKLcZzvnA14id3A==
   dependencies:
     "@appium/base-driver" "^8.0.0"
     "@appium/support" "^2.46.0"
